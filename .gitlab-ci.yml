@@ -1,0 +1,31 @@
+stages:
+  - build
+  - deploy
+
+build:
+  stage: build
+  image: node:16
+  cache:
+    paths:
+      - node_modules/
+  script:
+    - cat $NUXT_ENV > .env
+    - yarn install
+    - yarn generate
+  artifacts:
+    paths:
+      - dist/
+    expire_in: 10 minutes
+  only:
+    - main
+
+deploy:
+  stage: deploy
+  image: andreysenov/firebase-tools:latest
+  needs:
+    - job: build
+      artifacts: true
+  script:
+    - firebase deploy --only hosting
+  only:
+    - main

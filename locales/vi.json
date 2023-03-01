@@ -1,0 +1,646 @@
+{
+  "common": {
+    "filter": {
+      "createdFrom": "Từ ngày",
+      "createdTo": "Đến ngày",
+      "all": "Tất cả",
+      "search": "Tìm kiếm",
+      "filter": "Lọc"
+    },
+    "model": {
+      "id": "#",
+      "name": "Tên",
+      "email": "Email",
+      "phone": "Số điện thoại",
+      "address": "Địa chỉ",
+      "password": "Mật khẩu",
+      "passwordConfirmation": "Nhập lại mật khẩu",
+      "createdAt": "Ngày tạo",
+      "updatedAt": "Ngày sửa",
+      "dateOfBirth": "Ngày sinh"
+    },
+    "action": {
+      "filter": "Lọc",
+      "view": "Xem",
+      "create": "Thêm",
+      "edit": "Chỉnh sửa",
+      "update": "Sửa",
+      "delete": "Xóa",
+      "cancel": "Hủy",
+      "back": "Quay lại",
+      "close": "Đóng",
+      "reset": "Bỏ lọc",
+      "send": "Gửi",
+      "apply": "Áp dụng",
+      "new": "Mới",
+      "approve": "Duyệt",
+      "reject": "Từ chối",
+      "save": "Lưu",
+      "action": "Hành động",
+      "disable": "Vô hiệu hóa",
+      "login": "Đăng nhập",
+      "choose": "Chọn",
+      "confirm": "Xác nhận",
+      "search": "Tìm kiếm",
+      "pay": "Thanh toán"
+    },
+    "notice": {
+      "success": "Thành công",
+      "failed": "Thất bại"
+    },
+    "message": {
+      "phoneInvalid": "Số điện thoại không hợp lệ (vd: {_example_}).",
+      "confirmTitle": "Xác nhận",
+      "confirmDeletionMessage": "Bạn chắc chắn muốn xóa?",
+      "warning": "Cảnh báo"
+    }
+  },
+  "auth": {
+    "welcome": "Chào mừng! Hãy cùng nhau xây dựng những điều tuyệt vời."
+  },
+  "login": {
+    "title": "Chào mừng",
+    "subTitle": "Đăng nhập vào tài khoản của bạn",
+    "or": "Hoặc",
+    "model": {
+      "email": "Email",
+      "password": "Mật khẩu"
+    },
+    "action": {
+      "login": "Đăng nhập",
+      "register": "Đăng ký",
+      "forgot": "Quên mật khẩu?"
+    },
+    "noAccount": "Không có tài khoản?"
+  },
+  "register": {
+    "title": "Chào mừng",
+    "subTitle": "Hãy xây dựng những sản phẩm tuyệt vời",
+    "or": "Hoặc",
+    "model": {
+      "name": "Tên",
+      "email": "Email",
+      "password": "Mật khẩu",
+      "passwordConfirmation": "Xác nhận mật khẩu"
+    },
+    "action": {
+      "register": "Đăng ký",
+      "login": "Đăng nhập"
+    },
+    "message": {
+      "success": "Đăng ký thành công."
+    },
+    "agree": "Bằng cách đăng ký, bạn đồng ý với",
+    "tos": "Điều khoản dịch vụ",
+    "policy": "Chính sách bảo mật",
+    "alreadyAccount": "Bạn có sẵn sàng để tạo một tài khoản?"
+  },
+  "passwordForgot": {
+    "title": "Quên mật khẩu?",
+    "subTitle": "Nhập địa chỉ email tài khoản của bạn và chúng tôi sẽ gửi cho bạn một liên kết để đặt lại mật khẩu của bạn.",
+    "model": {
+      "email": "Email"
+    },
+    "action": {
+      "request": "Yêu cầu đặt lại mật khẩu",
+      "backToLogin": "Quay lại đăng nhập"
+    },
+    "message": {
+      "success": "Yêu cầu đặt lại mật khẩu thành công."
+    }
+  },
+  "passwordReset": {
+    "title": "Đặt mật khẩu mới",
+    "subTitle": "Đang đặt lại mật khẩu",
+    "model": {
+      "email": "Email",
+      "newPassword": "Mật khẩu",
+      "newPasswordConfirmation": "Xác nhận mật khẩu"
+    },
+    "action": {
+      "set": "Đặt mật khẩu mới"
+    },
+    "message": {
+      "success": "Đặt lại mật khẩu thành công."
+    }
+  },
+  "resend": {
+    "title": "Vui lòng xác minh email",
+    "subTitle": "Vui lòng kiểm tra email của bạn để biết liên kết để xác minh email.",
+    "model": {
+      "email": "Email"
+    },
+    "action": {
+      "resend": "Gửi lại email"
+    },
+    "message": {
+      "success": "Gửi lại email thành công."
+    }
+  },
+  "footer": {
+    "poweredBy": "Được cung cấp bởi"
+  },
+  "menu": {
+    "profile": "Thông tin",
+    "logout": "Đăng xuất",
+    "dashboard": "Trang chính",
+    "app": "Tính năng",
+    "orders": "Đơn hàng",
+    "quotations": "Báo giá",
+    "debts": "Công nợ",
+    "products": "Sản phẩm",
+    "stocks": "Kho Hàng",
+    "customers": "Khách hàng",
+    "suppliers": "Nhà cung cấp",
+    "system": "Hệ thống",
+    "admin": "Quản trị viên",
+    "setting": "Cài đặt"
+  },
+  "profile": {
+    "model": {
+      "security": "Bảo mật"
+    }
+  },
+  "changePassword": {
+    "title": {
+      "changePassword": "Đổi mật khẩu"
+    },
+    "model": {
+      "currentPassword": "Mật khẩu hiện tại",
+      "newPassword": "Mật khẩu mới",
+      "newPasswordConfirmation": "Nhập lại mật khẩu mới"
+    }
+  },
+  "order": {
+    "title": "Đơn hàng",
+    "model": {
+      "customerName": "Tên khách hàng",
+      "deliveryAddress": "Địa chỉ giao hàng",
+      "deliveryDate": "Ngày giao",
+      "totalPrice": "Tổng tiền",
+      "totalShell": "Tổng vỏ trả",
+      "totalResidualGas": "Tổng ga dư",
+      "status": "Trạng thái",
+      "note": "Ghi chú",
+      "orderInformation": "Thông tin đơn hàng",
+      "customerInformation": "Thông tin khách hàng",
+      "productList": "Danh sách sản phẩm",
+      "createdAt": "Ngày tạo",
+      "deleted": "Đơn hàng đã xóa"
+    },
+    "action": {
+      "createOrder": "Tạo đơn hàng",
+      "updateOrder": "Cập nhật đơn hàng",
+      "viewOrder": "Chi tiết đơn hàng"
+    },
+    "status": {
+      "new": "Chưa giao",
+      "delivered": "Đã giao",
+      "paid": "Đã thanh toán",
+      "cancelled": "Đã hủy"
+    },
+    "notice": {
+      "deleteSuccess": "Xóa đơn hàng thành công",
+      "cancelSuccess": "Hủy đơn hàng  thành công"
+    },
+    "message": {
+      "confirmCancelTitle": "Hủy đơn hàng",
+      "confirmCancelMessage": "Bạn có chắc muốn hủy đơn hàng ?",
+      "orderItemsRequired": "Vui lòng chọn sản phẩm cho đơn hàng",
+      "customerRequired": "Vui lòng chọn khách hàng cho đơn hàng",
+      "addressRequired": "Vui lòng chọn địa chỉ giao hàng",
+      "supplierRequired": "Vui lòng chọn nhà cung cấp cho sản phẩm"
+    },
+    "unit": {
+      "shell": "Cái",
+      "kg": "Kg"
+    }
+  },
+  "orderItem": {
+    "model": {
+      "productName": "Tên sản phẩm",
+      "amount": "Số lượng",
+      "shell": "Số vỏ",
+      "residualGas": "Ga dư",
+      "remain": "Còn lại",
+      "shellDebts": "Vỏ nợ"
+    },
+    "notice": {
+      "success": "Thành công",
+      "failed": "Thất bại",
+      "fail": "Thất bại"
+    },
+    "message": {
+      "disable": "Vô hiệu hóa",
+      "confirm": "Xác nhận",
+      "warning": "Cảnh báo",
+      "confirmTitle": "Xác nhận",
+      "confirmDeletionMessage": "Bạn chắc chắn muốn xóa?",
+      "updateSuccess": "Cập nhật thành công!",
+      "createSuccess": "Tạo mới thành công!"
+    }
+  },
+  "stock": {
+    "title": {
+      "stockList": "Kho hàng"
+    },
+    "model": {
+      "unit": "Đơn vị",
+      "currentStock": "Kho hiện tại",
+      "productName": "Tên sản phẩm",
+      "supplierName": "Tên nhà cung cấp",
+      "price": "Giá",
+      "amount": "Số lượng hàng chưa lên đơn",
+      "importedAt": "Ngày nhập",
+      "totalActualAmount": "Tồn kho thực tế",
+      "totalAmountOrderNew": "Số lượng hàng đã lên đơn"
+    },
+    "action": {
+      "create": "Nhập hàng",
+      "update": "Cập nhật hàng"
+    },
+    "notice": {
+      "createSuccess": "Nhập hàng thành công",
+      "updateSuccess": "Cập nhật hàng thành công"
+    }
+  },
+  "breadcrumbs": {
+    "home": "Trang chủ",
+    "orders": "Đơn hàng",
+    "ordersCreate": "Tạo đơn hàng",
+    "ordersId": "Chi tiết đơn hàng",
+    "ordersEdit": "Cập nhật đơn hàng",
+    "products": "Sản phẩm",
+    "suppliers": "Nhà cung cấp",
+    "debts": "Công nợ",
+    "customers": "Khách hàng",
+    "users": "Người dùng",
+    "usersCreate": "Tạo người dùng mới",
+    "usersEdit": "Cập nhật người dùng",
+    "setting": "Cài đặt",
+    "settingRoles": "Phân quyền",
+    "quotations": "Báo giá",
+    "profile": "Hồ sơ",
+    "logout": "Đăng xuất",
+    "dashboard": "Bảng điều khiển",
+    "app": "Ứng dụng",
+    "user": "Người dùng",
+    "product": "Sản phẩm",
+    "order": "Đơn hàng",
+    "customer": "Khách hàng",
+    "system": "Hệ thống",
+    "admin": "Quản trị viên",
+    "stocks": "Kho hàng"
+  },
+  "dashboard": {
+    "title": "Tổng quan",
+    "netProfitAndRevenue": "Lợi nhuận và doanh thu",
+    "revenue": "Doanh thu",
+    "birthdayOfCustomers": "Sinh nhật của khách hàng",
+    "product": "Sản phẩm",
+    "latestOrder": "Đơn hàng gần đây",
+    "outOfProduct": "Sản phẩm sắp hết hàng",
+    "model": {
+      "totalOrders": "Tổng đơn hàng trong tháng",
+      "totalOrdersPrice": "Tổng giá trị đơn hàng trong tháng"
+    }
+  },
+  "product": {
+    "title": {
+      "productList": "Sản phẩm",
+      "updateProduct": "Cập nhật sản phẩm",
+      "createProduct": "Tạo sản phẩm",
+      "image": "Hình ảnh",
+      "amount": "Số lượng",
+      "price": "Giá",
+      "type": "Loại"
+    },
+    "model": {
+      "image": "Hình ảnh",
+      "name": "Tên",
+      "unit": "Đơn vị",
+      "price": "Giá",
+      "stock": "Kho",
+      "description": "Mô tả",
+      "insurance": "Bảo hành",
+      "productDetails": "Chi tiết sản phẩm",
+      "yes": "Có",
+      "no": "Không",
+      "amount": "Số lượng",
+      "currentStock": "Kho hiện tại",
+      "size": "Quy cách",
+      "status": "Trạng thái"
+    },
+    "action": {
+      "create": "Tạo sản phẩm",
+      "update": "Cập nhật sản phẩm",
+      "addStock": "Thêm kho"
+    },
+    "tabs": {
+      "description": "Mô tả"
+    },
+    "selectInsurance": {
+      "yes": "Có",
+      "no": "Không"
+    },
+    "type": {
+      "shelled": "Có vỏ, ga dư",
+      "noShell": "Không có vỏ và ga dư"
+    },
+    "status": {
+      "inactive": "Không hoạt động",
+      "active": "Hoạt động"
+    }
+  },
+  "unit": {
+    "title": "Đơn vị",
+    "model": {
+      "name": "Tên"
+    },
+    "action": {
+      "createUnit": "Tạo đơn vị",
+      "updateUnit": "Sửa đơn vị"
+    }
+  },
+  "customer": {
+    "title": "Khách hàng",
+    "generalInformation": "Thông tin chung",
+    "contact": "Người liên hệ",
+    "products": "Sản phẩm",
+    "model": {
+      "name": "Tên khách hàng",
+      "email": "Email",
+      "phone": "Số điện thoại",
+      "dateOfBirth": "Ngày sinh",
+      "taxCode": "Mã số thuế",
+      "address": "Địa chỉ",
+      "type": "Loại khách hàng",
+      "note": "Ghi chú",
+      "totalOrder": "Tổng đơn hàng",
+      "totalPurchase": "Tổng mua",
+      "location": "Vị trí"
+    },
+    "action": {
+      "createCustomer": "Thêm khách hàng mới",
+      "customerDetail": "Chi tiết khách hàng",
+      "editCustomer": "Sửa khách hàng",
+      "openGoogleMap": "Mở Google Map"
+    },
+    "notice": {
+      "createSuccess": "Thêm mới khách hàng thành công!",
+      "updateSuccess": "Cập nhật khách hàng thành công!",
+      "deleteSuccess": "Xóa khách hàng thành thành công!",
+      "requiredAddress": "Địa chỉ không được để trống"
+    }
+  },
+  "customerType": {
+    "title": "Loại khách hàng",
+    "model": {
+      "name": "Tên"
+    },
+    "action": {
+      "createCustomerType": "Thêm loại khách hàng",
+      "updateCustomerType": "Cập nhật loại khách hàng"
+    }
+  },
+  "supplier": {
+    "title": "Nhà cung cấp",
+    "contact": "Người liên hệ",
+    "generalInformation": "Thông tin chung",
+    "productOfTheSupplier": "Sản phẩm của nhà cung cấp",
+    "model": {
+      "name": "Tên",
+      "email": "Email",
+      "phone": "Số điện thoại",
+      "address": "Địa chỉ",
+      "note": "Ghi chú",
+      "dateOfBirth": "Ngày sinh",
+      "location": "Vị trí"
+    },
+    "filter": {
+      "title": "Lọc nhà cung cấp"
+    },
+    "action": {
+      "createSupplier": "Thêm nhà cung cấp",
+      "updateSupplier": "Cập nhật nhà cung cấp",
+      "detailSupplier": "Chi tiết nhà cung cấp",
+      "openGoogleMap": "Mở google map"
+    },
+    "notice": {
+      "createSuccess": "Tạo mới nhà cung cấp thành công",
+      "updateSuccess": "Cập nhật nhà cung cấp thành công",
+      "deleteSuccess": "Xóa nhà cung cấp thành công"
+    }
+  },
+  "role": {
+    "title": "Phân quyền",
+    "model": {
+      "name": "Tên",
+      "description": "Mô tả",
+      "permissions": "Danh sách quyền",
+      "module": "Mô-đun",
+      "action": "Hành động"
+    },
+    "action": {
+      "create": "Tạo mới vai trò",
+      "update": "Cập nhật vai trò"
+    },
+    "notice": {
+      "createSuccess": "Tạo mới vai trò thành công",
+      "updateSuccess": "Cập nhật vai trò thành công",
+      "deleteSuccess": "Xóa vai trò thành công"
+    }
+  },
+  "user": {
+    "title": "Người dùng",
+    "model": {
+      "roles": "Quyền",
+      "changePassword": "Đổi mật khẩu"
+    },
+    "action": {
+      "create": "Tạo người dùng mới",
+      "update": "Cập nhật người dùng"
+    }
+  },
+  "vuetify": {
+    "badge": "Huy hiệu",
+    "close": "Đóng",
+    "dataIterator": {
+      "noResultsText": "Không tìm thấy kết quả nào",
+      "loadingText": "Đang tải..."
+    },
+    "dataTable": {
+      "itemsPerPageText": "Số hàng mỗi trang:",
+      "ariaLabel": {
+        "sortDescending": "Sắp xếp giảm dần.",
+        "sortAscending": "Sắp xếp tăng dần.",
+        "sortNone": "Không sắp xếp.",
+        "activateNone": "Kích hoạt để bỏ sắp xếp.",
+        "activateDescending": "Kích hoạt để sắp xếp giảm dần.",
+        "activateAscending": "Kích hoạt để sắp xếp tăng dần."
+      },
+      "sortBy": "Sắp xếp"
+    },
+    "dataFooter": {
+      "itemsPerPageText": "Số mục mỗi trang:",
+      "itemsPerPageAll": "Toàn bộ",
+      "nextPage": "Trang tiếp theo",
+      "prevPage": "Trang trước",
+      "firstPage": "Trang đầu",
+      "lastPage": "Trang cuối",
+      "pageText": "{0}-{1} trên {2}"
+    },
+    "datePicker": {
+      "itemsSelected": "{0} được chọn",
+      "nextMonthAriaLabel": "Tháng sau",
+      "nextYearAriaLabel": "Năm sau",
+      "prevMonthAriaLabel": "Tháng trước",
+      "prevYearAriaLabel": "Năm trước"
+    },
+    "noDataText": "Không có dữ liệu",
+    "carousel": {
+      "prev": "Ảnh tiếp theo",
+      "next": "Ảnh trước",
+      "ariaLabel": {
+        "delimiter": "Trang trình bày {0} trên {1}"
+      }
+    },
+    "calendar": {
+      "moreEvents": "{0} nữa"
+    },
+    "fileInput": {
+      "counter": "{0} tệp",
+      "counterSize": "{0} tệp (tổng cộng {1})"
+    },
+    "timePicker": {
+      "am": "SA",
+      "pm": "CH"
+    },
+    "pagination": {
+      "ariaLabel": {
+        "wrapper": "Điều hướng phân trang",
+        "next": "Trang tiếp theo",
+        "previous": "Trang trước",
+        "page": "Đến trang {0}",
+        "currentPage": "Trang hiện tại, Trang {0}"
+      }
+    },
+    "rating": {
+      "ariaLabel": {
+        "icon": "Đánh giá {0} trên {1}"
+      }
+    }
+  },
+  "quotation": {
+    "title": "Báo giá ngày",
+    "action": {
+      "edit": "Thay đổi giá",
+      "createPriceQuotation": "Tạo báo giá mới",
+      "haveVAT": "Có VAT",
+      "noVAT": "Không VAT"
+    },
+    "dialog": {
+      "title": {
+        "monthApply": "Áp dụng cho thời gian"
+      },
+      "label": {
+        "monthApply": "Áp dụng tháng",
+        "dateApply": "Ngày áp dụng",
+        "amplitude": "Biên độ"
+      }
+    },
+    "tab": {
+      "tabItem": {
+        "customer": "Khách hàng",
+        "supplier": "Nhà cung cấp"
+      }
+    }
+  },
+  "revenue": {
+    "title": "Doanh thu",
+    "model": {
+      "customerName": "Tên khách hàng",
+      "totalPrice": "Tổng giá",
+      "time": "Thời gian",
+      "revenueMonth": "Doanh thu tháng {_month_}"
+    }
+  },
+  "debts": {
+    "title": "Công nợ",
+    "model": {
+      "customerName": "Tên khách hàng",
+      "deliveryDate": "Ngày giao",
+      "deliveryPlace": "Nơi giao",
+      "deliveryQuantity": "Số lượng giao",
+      "unit": "Đơn vị tính",
+      "price": "Đơn giá",
+      "totalMoney": "Thành tiền",
+      "totalGasReturn": "Ga dư",
+      "totalMoneyGasReturn": "Thành tiền ga dư",
+      "totalDebts": "Tổng công nợ",
+      "durationPayment": "Hạn thanh toán",
+      "debtsDetail": "Chi tiết công nợ",
+      "debtsAllDetail": "Tổng chi tiết công nợ",
+      "beginOfYear": "Đầu kỳ (T02)",
+      "note": "Ghi chú",
+      "month": "Tháng",
+      "incurred": "Phát sinh",
+      "paid": "Đã thanh toán",
+      "paymentDate": "Ngày thanh toán",
+      "remaining": "Còn lại",
+      "deliveryAddress": "Địa chỉ giao hàng",
+      "totalQuantity": "Tổng số lượng sản phẩm",
+      "totalPrice": "Tổng số tiền",
+      "totalShell": "Tổng vỏ trả",
+      "totalResidualGas": "Tổng ga dư",
+      "status": "Trạng thái",
+      "totalPriceDebts": "Tổng số tiền nợ",
+      "totalPricePaid": "Tổng số tiền đã thanh toán",
+      "currentDebtsBalance": "Số dư nợ hiện tại",
+      "totalShellDebts": "Tổng số vỏ nợ",
+      "listShell": "Danh sách vỏ nợ"
+    },
+    "action": {
+      "updatePaid": "Cập nhật tiền thanh toán"
+    }
+  },
+  "payment": {
+    "title": "Lịch sử thanh toán",
+    "model": {
+      "paid": "Số tiền đã thanh toán",
+      "paymentDate": "Ngày thanh toán",
+      "note": "Ghi chú"
+    },
+    "action": {
+      "updatePayment": "Sửa thanh toán"
+    }
+  },
+  "validations": {
+    "alpha": "{_field_} chỉ có thể chứa các kí tự chữ",
+    "alpha_num": "{_field_} chỉ có thể chứa các kí tự chữ và số",
+    "alpha_dash": "{_field_} có thể chứa các kí tự chữ (A-Z a-z), số (0-9), gạch ngang (-) và gạch dưới (_)",
+    "alpha_spaces": "{_field_} chỉ có thế chứa các kí tự và khoảng trắng",
+    "between": "{_field_} phải có giá trị nằm trong khoảng giữa {min} và {max}",
+    "confirmed": "{_field_} khác với {target}",
+    "digits": "{_field_} chỉ có thể chứa các kí tự số và bắt buộc phải có độ dài là {length}",
+    "dimensions": "{_field_} phải có chiều rộng {width} pixels và chiều cao {height} pixels",
+    "email": "{_field_} phải là một địa chỉ email hợp lệ",
+    "excluded": "{_field_} không phải là một giá trị hợp lệ",
+    "ext": "{_field_} phải là một tệp",
+    "image": "{_field_} phải là một ảnh",
+    "integer": "{_field_} phải là một số",
+    "length": "{_field_} phải dài {length}",
+    "max_value": "{_field_} phải nhỏ hơn hoặc bằng {max}",
+    "max": "{_field_} không thể có nhiều hơn {length} kí tự",
+    "mimes": "{_field_} phải chứa kiểu tệp phù hợp",
+    "min_value": "{_field_} phải lớn hơn hoặc bằng {min}",
+    "min": "{_field_} phải chứa ít nhất {length} kí tự",
+    "numeric": "{_field_} chỉ có thể có các kí tự số",
+    "oneOf": "{_field_} không phải là một giá trị hợp lệ",
+    "regex": "{_field_} có định dạng không đúng",
+    "required_if": "{_field_} là bắt buộc",
+    "required": "{_field_} là bắt buộc",
+    "size": "{_field_} chỉ có thể chứa tệp nhỏ hơn {size}KB",
+    "double": "{_field_} phải là một số thập phân hợp lệ"
+  }
+}
