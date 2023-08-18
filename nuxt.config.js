@@ -153,8 +153,7 @@ export default {
           property: 'data'
         }
       }
-    },
-    plugins: ['@/plugins/vue-simple-acl']
+    }
   },
 
   // I18n module configuration: https://i18n.nuxtjs.org/options-reference
